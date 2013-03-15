@@ -1,0 +1,1 @@
+rsync -avl --progress . k_vikhyat@10.4.1.5:iitmandi-roundcube-skin && ssh k_vikhyat@10.4.1.5 -t "sudo rm -rf /usr/share/roundcube/skins/iitmandi-roundcube-skin/ && sudo mv iitmandi-roundcube-skin /usr/share/roundcube/skins/"
