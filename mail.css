@@ -723,7 +723,7 @@ body.messagelist
 
 #messagelist tbody tr td.subject a
 {
-  cursor: default;
+  cursor: pointer;
 }
 
 #messagelist col
@@ -779,6 +779,7 @@ body.messagelist
 {
   width: 180px;
   vertical-align: middle;
+  font-style: italic;
 }
 
 #messagelist tr td.date
